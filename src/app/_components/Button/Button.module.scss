@@ -3,6 +3,8 @@
 
   padding: var(--spacing-sm) var(--spacing-md);
 
+  font-family: inherit;
+  font-size: var(--font-size-md);
   letter-spacing: var(--letter-spacing);
 
   color: var(--text-color);
@@ -12,8 +14,6 @@
   border-radius: 0;
 
   cursor: pointer;
-
-  transition: var(--transition-duration) var(--transition-timing-function);
 
   &:hover {
     background-color: var(--hover-color);
