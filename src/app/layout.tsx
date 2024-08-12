@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 /* Context */
 import { ThemeProvider } from '@/app/_context/ThemeContext';
 
+/* Components */
+import Navigation from '@/app/_components/Navigation/Navigation';
+
 /* Fonts */
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
@@ -24,7 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Navigation />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
