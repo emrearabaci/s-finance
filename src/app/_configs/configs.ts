@@ -1,5 +1,5 @@
 /* Icon Attributes */
-export const imageConfigs = {
+export const iconConfigs = {
   width: 18,
   height: 18,
   quality: 100,

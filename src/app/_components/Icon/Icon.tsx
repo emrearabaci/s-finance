@@ -13,7 +13,7 @@ import Image from 'next/image';
 import { useTheme } from '@/app/_context/ThemeContext';
 
 /* Configs */
-import { imageConfigs, icons } from '@/app/_configs/configs';
+import { iconConfigs, icons } from '@/app/_configs/configs';
 
 /* Styles */
 import styles from '@/app/_components/Icon/Icon.module.scss';
@@ -28,10 +28,10 @@ export default function Icon({ iconName, alt }: IconProps) {
       className={styles.main}
       src={src}
       alt={alt}
-      width={imageConfigs.width}
-      height={imageConfigs.height}
-      quality={imageConfigs.quality}
-      priority={imageConfigs.priority}
+      width={iconConfigs.width}
+      height={iconConfigs.height}
+      quality={iconConfigs.quality}
+      priority={iconConfigs.priority}
     />
   );
 }
