@@ -4,8 +4,20 @@
 $dark: hsla(0, 0%, 7%, 1);
 $hiddenDark: hsla(0, 0%, 9%, 1);
 $ghostDark: hsla(0, 0%, 11%, 1);
+$thinDark: hsla(0, 0%, 44%, 1);
 
 /* Light Theme */
 $light: hsla(0, 0%, 100%, 1);
 $hiddenLight: hsla(0, 0%, 98%, 1);
 $ghostLight: hsla(0, 0%, 96%, 1);
+$thinLight: hsla(0, 0%, 55%, 1);
+
+/* Palette */
+$redDark: hsla(5, 60%, 34%, 1);
+$redLight: hsla(5, 60%, 56%, 1);
+
+$greenDark: hsla(100, 50%, 34%, 1);
+$greenLight: hsla(100, 50%, 56%, 1);
+
+$blueDark: hsla(205, 40%, 34%, 1);
+$blueLight: hsla(205, 40%, 56%, 1);
