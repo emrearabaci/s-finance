@@ -39,6 +39,11 @@
   --hover-color: #{$ghostLight};
   --active-color: #{$hiddenLight};
   --flat-color: #{$hiddenLight};
+  --thin-color: #{$thinDark};
+
+  --red: #{$redDark};
+  --green: #{$greenDark};
+  --blue: #{$blueDark};
 }
 
 :root.dark {
@@ -49,6 +54,11 @@
   --hover-color: #{$ghostDark};
   --active-color: #{$hiddenDark};
   --flat-color: #{$hiddenDark};
+  --thin-color: #{$thinLight};
+
+  --red: #{$redLight};
+  --green: #{$greenLight};
+  --blue: #{$blueLight};
 }
 
 * {
