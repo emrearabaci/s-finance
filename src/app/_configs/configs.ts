@@ -27,5 +27,9 @@ export const icons = {
   activity: {
     dark: '/icon-activity-light.svg',
     light: '/icon-activity-dark.svg'
+  },
+  briefcase: {
+    dark: '/icon-briefcase-light.svg',
+    light: '/icon-briefcase-dark.svg'
   }
 };

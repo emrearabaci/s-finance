@@ -21,7 +21,14 @@ export default function Navigation() {
 
       <Divider />
 
-      <div className={styles.content}></div>
+      <div className={styles.content}>
+        <Link href="/">
+          <Button content={<Icon iconName={'activity'} alt={'s-finance'} />} />
+        </Link>
+        <Link href="/">
+          <Button content={<Icon iconName={'briefcase'} alt={'s-finance'} />} />
+        </Link>
+      </div>
 
       <Divider />
 
